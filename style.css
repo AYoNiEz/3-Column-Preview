@@ -1,0 +1,124 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 50px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: hsl(0, 0%, 95%);
+}
+h1{
+    color: #ffffff;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.486);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+button{
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    border:none;
+    padding: 14px 30px 14px 30px;
+    margin-top: 60px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+.container{
+    width: 860px;
+    height: 470px;;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 120px;
+    
+}
+.row1{
+    width: 100%;
+    background-color: #e28525;
+    border-radius: 10px 0px 0px 10px;
+}
+.row2{
+    width: 100%;
+    background-color: hsl(184, 100%, 22%);
+}
+.row3{
+    width: 100%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+.textbox{
+    margin: 40px;
+}
+.learn1{
+    color:#e28525;
+    border: 2px solid #e28525;
+}
+.learn2{
+    color:hsl(184, 100%, 22%);
+    border: 2px solid hsl(184, 100%, 22%);
+}
+.learn3{
+    color:hsl(179, 100%, 13%);
+    border: 2px solid hsl(179, 100%, 13%);
+}
+.learn1:hover {
+    border: 2px solid #ffffff;
+    background-color: #e28525;
+    color:#ffffff;
+}
+.learn2:hover {
+    border: 2px solid #ffffff;
+    background-color: hsl(184, 100%, 22%);
+    color:#ffffff;
+}
+.learn3:hover {
+    border: 2px solid #ffffff;
+    background-color: hsl(179, 100%, 13%);
+    color:#ffffff;
+}
+@media  screen and (max-width:415px){
+    .attribution { font-size: 11px; text-align: center; ;
+        bottom: 30px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+        max-width: 100%;
+        max-height: auto;
+    }
+    .container{
+        width: 90%;
+        height: 90%;;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 120px;
+        position: relative;
+        
+    }
+    .row1{
+        width: 100%;
+        background-color: #e28525;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .row2{
+        width: 100%;
+        background-color: hsl(184, 100%, 22%);
+    }
+    .row3{
+        width: 100%;
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px 0px 10px 10px;
+    }
+    button{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+    
+}
